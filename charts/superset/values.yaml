@@ -19,6 +19,8 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+# PlaidCloud fork adds OIDC, Branding, menu changes, and Project relationship syncing to Superset
+
 devMode: false
 
 replicaCount: 1
