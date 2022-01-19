@@ -340,7 +340,8 @@ rabbitmq:
 ##
 ## Configuration values for the postgresql dependency.
 ## ref: https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md
-superset-postgresql:
+postgresql:
+  fullnameOverride: {{ .Release.Name }}-superset-postgresql
   ##
   ## Use the PostgreSQL chart dependency.
   ## Set to false if bringing your own PostgreSQL.
@@ -384,7 +385,8 @@ superset-postgresql:
 
 ## Configuration values for the Redis dependency.
 ## ref: https://github.com/kubernetes/charts/blob/master/stable/redis/README.md
-superset-redis:
+redis:
+  fullnameOverride: {{ .Release.Name }}-superset-redis
   ##
   ## Use the redis chart dependency.
   ## Set to false if bringing your own redis.
