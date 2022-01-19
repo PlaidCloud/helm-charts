@@ -24,11 +24,11 @@ maintainers:
     url: https://github.com/craig-rueda
 version: 0.3.5
 dependencies:
-- name: postgresql
+- name: superset-postgresql
   version: 10.2.0
   repository: https://charts.bitnami.com/bitnami
   condition: postgresql.enabled
-- name: redis
+- name: superset-redis
   version: 12.3.3
   repository: https://charts.bitnami.com/bitnami
   condition: redis.enabled
