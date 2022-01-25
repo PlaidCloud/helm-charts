@@ -386,7 +386,7 @@ postgresql:
 ## Configuration values for the Redis dependency.
 ## ref: https://github.com/kubernetes/charts/blob/master/stable/redis/README.md
 redis:
-  nameOverride: superset-redis'
+  nameOverride: superset-redis
   ##
   ## Use the redis chart dependency.
   ## Set to false if bringing your own redis.
