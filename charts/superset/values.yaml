@@ -127,13 +127,15 @@ configMountPath: "/app/pythonpath"
 extraConfigMountPath: "/app/configs"
 
 image:
-  repository: gcr.io/plaidcloud-build/superset/production:beta-202201-2
+  repository: gcr.io/plaidcloud-build/superset/production:beta-202202-1
+  tag: beta-202201-2
   pullPolicy: IfNotPresent
   pullSecret: gcr-key
 
 events:
   enabled: true
-  repository: gcr.io/plaidcloud-build/superset/events:beta-202201-2
+  repository: gcr.io/plaidcloud-build/superset/events:beta-202202-1
+  tag: beta-202201-2
   pullPolicy: IfNotPresent
   pullSecret: gcr-key
   entrypoint:
