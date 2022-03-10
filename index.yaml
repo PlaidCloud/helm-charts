@@ -1,5 +1,19 @@
 apiVersion: v1
 entries:
+  events:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-03-10T20:52:36.333101514Z"
+    description: PlaidCloud API events processing for Superset instances.
+    digest: f9528f4f76f87057fc27f21a8627188b48ce894021b467954ba02c6acd96639b
+    maintainers:
+    - email: garrett.bates@tartansolutions.com
+      name: gbates101
+      url: https://github.com/PlaidCloud
+    name: events
+    urls:
+    - https://github.com/PlaidCloud/helm-charts/releases/download/events-0.1.0/events-0.1.0.tgz
+    version: 0.1.0
   superset:
   - apiVersion: v2
     appVersion: "1.0"
@@ -208,4 +222,4 @@ entries:
     urls:
     - https://github.com/PlaidCloud/helm-charts/releases/download/superset-0.3.5/superset-0.3.5.tgz
     version: 0.3.5
-generated: "2022-02-11T20:56:30.429801Z"
+generated: "2022-03-10T20:52:36.333137015Z"
