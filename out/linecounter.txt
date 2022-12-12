@@ -1,0 +1,37 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-03-28 07:52:17
+count workspace : /Users/inviscid/Projects/helm-charts
+total files : 17
+total code lines : 1092
+total comment lines : 61
+total blank lines : 61
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .yaml|            881|             15|             22|     81|
+   |               |             75|              0|             15|    6.9|
+   |           .tpl|            116|             26|             24|     11|
+   |           .txt|             20|             20|              0|    1.8|
+   -------------------------------------------------------------------------
+.github/workflows/lint-test.yaml, code is 33, comment is 0, blank is 9.
+.github/workflows/release.yaml, code is 21, comment is 0, blank is 4.
+.gitignore, code is 75, comment is 0, blank is 15.
+charts/superset/Chart.yaml, code is 34, comment is 4, blank is 0.
+charts/superset/templates/_helpers.tpl, code is 116, comment is 26, blank is 24.
+charts/superset/templates/configmap-superset.yaml, code is 32, comment is 1, blank is 0.
+charts/superset/templates/deployment-beat.yaml, code is 111, comment is 1, blank is 0.
+charts/superset/templates/deployment-events.yaml, code is 83, comment is 1, blank is 0.
+charts/superset/templates/deployment-worker.yaml, code is 111, comment is 1, blank is 0.
+charts/superset/templates/deployment.yaml, code is 171, comment is 1, blank is 2.
+charts/superset/templates/ingress.yaml, code is 56, comment is 1, blank is 0.
+charts/superset/templates/init-job.yaml, code is 80, comment is 1, blank is 0.
+charts/superset/templates/NOTES.txt, code is 20, comment is 20, blank is 0.
+charts/superset/templates/secret-env.yaml, code is 39, comment is 1, blank is 0.
+charts/superset/templates/secret-superset-config.yaml, code is 41, comment is 1, blank is 1.
+charts/superset/templates/service.yaml, code is 42, comment is 1, blank is 0.
+charts/superset/values.yaml, code is 27, comment is 1, blank is 6.
+===============================================================================

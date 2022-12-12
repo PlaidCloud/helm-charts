@@ -1,0 +1,141 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/inviscid/Projects/helm-charts",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-03-28 07:52:17",
+            "filesum": 17,
+            "codesum": 1092,
+            "commentsum": 61,
+            "blanksum": 61,
+            "statistics": {
+                ".yaml": {
+                    "code": 881,
+                    "comment": 15,
+                    "blank": 22
+                },
+                "": {
+                    "code": 75,
+                    "comment": 0,
+                    "blank": 15
+                },
+                ".tpl": {
+                    "code": 116,
+                    "comment": 26,
+                    "blank": 24
+                },
+                ".txt": {
+                    "code": 20,
+                    "comment": 20,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": ".github/workflows/lint-test.yaml"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": ".github/workflows/release.yaml"
+                },
+                {
+                    "blank": 15,
+                    "code": 75,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 4,
+                    "filename": "charts/superset/Chart.yaml"
+                },
+                {
+                    "blank": 24,
+                    "code": 116,
+                    "comment": 26,
+                    "filename": "charts/superset/templates/_helpers.tpl"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/configmap-superset.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 111,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/deployment-beat.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 83,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/deployment-events.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 111,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/deployment-worker.yaml"
+                },
+                {
+                    "blank": 2,
+                    "code": 171,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/deployment.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 56,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/ingress.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 80,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/init-job.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 20,
+                    "filename": "charts/superset/templates/NOTES.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/secret-env.yaml"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/secret-superset-config.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 1,
+                    "filename": "charts/superset/templates/service.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 27,
+                    "comment": 1,
+                    "filename": "charts/superset/values.yaml"
+                }
+            ]
+        }
+    ]
+}
