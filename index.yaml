@@ -16,6 +16,23 @@ entries:
     version: 0.1.0
   piraeus:
   - apiVersion: v2
+    appVersion: 1.10.2
+    created: "2022-12-13T01:26:24.002713789Z"
+    dependencies:
+    - name: piraeus-ha-controller
+      repository: https://piraeus.io/helm-charts/
+      version: 1.1.1
+    - name: linstor-affinity-controller
+      repository: https://piraeus.io/helm-charts/
+      version: 1.1.2
+    description: A Helm chart for Piraeus Operator
+    digest: 3372318491c28a9f2ead4f49041ac3bcc35562e30dddf45ccb14bedada1b9c70
+    name: piraeus
+    type: application
+    urls:
+    - https://github.com/PlaidCloud/helm-charts/releases/download/piraeus-1.10.2/piraeus-1.10.2.tgz
+    version: 1.10.2
+  - apiVersion: v2
     appVersion: 1.10.1
     created: "2022-12-13T01:09:24.945401374Z"
     dependencies:
@@ -300,4 +317,4 @@ entries:
     urls:
     - https://github.com/PlaidCloud/helm-charts/releases/download/superset-0.3.5/superset-0.3.5.tgz
     version: 0.3.5
-generated: "2022-12-13T01:09:24.945453174Z"
+generated: "2022-12-13T01:26:24.002745489Z"
