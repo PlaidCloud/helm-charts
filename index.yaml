@@ -16,6 +16,16 @@ entries:
     version: 0.1.0
   piraeus:
   - apiVersion: v2
+    appVersion: 1.10.3
+    created: "2022-12-13T01:31:17.510321296Z"
+    description: A Helm chart for Piraeus Operator
+    digest: aa88bcc4485eb3764a129c474a99f81d7503e47d45936c7f7123b6ddf6217c05
+    name: piraeus
+    type: application
+    urls:
+    - https://github.com/PlaidCloud/helm-charts/releases/download/piraeus-1.10.3/piraeus-1.10.3.tgz
+    version: 1.10.3
+  - apiVersion: v2
     appVersion: 1.10.2
     created: "2022-12-13T01:26:24.002713789Z"
     dependencies:
@@ -317,4 +327,4 @@ entries:
     urls:
     - https://github.com/PlaidCloud/helm-charts/releases/download/superset-0.3.5/superset-0.3.5.tgz
     version: 0.3.5
-generated: "2022-12-13T01:26:24.002745489Z"
+generated: "2022-12-13T01:31:17.516336117Z"
